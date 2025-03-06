@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.urlencoded({extended:true}));
 
-mongoose.connect("mongodb+srv://rnafork:aman110304@cluster0.t30fq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("paste your mongobd link here", {
     dbName: "UrlShortner"
 }).then(() => {
     console.log("mongoDB is Connected .....");
